@@ -12,14 +12,15 @@ Initialized the node as "composiv_talker"
 Publishes messages to "chatter" topic
 Keeps sending the message "hello world, i am a ROS talker node!" within 10Hz until the process gets cancelled (CTRL+C or shutdown)
 
-referance: http://wiki.ros.org/ROS/Tutorials/WritingPublisherSubscriber%28python%29
+reference: http://wiki.ros.org/ROS/Tutorials/WritingPublisherSubscriber%28python%29
+
 ## Composiv_listener
 You can find the code for listener node under composiv_tryouts/scripts/composiv_listener.py
 Initialized the node as "composiv_listener" 
 Subscribes to the "chatter" topic
 If a message occurs on the chatter topic, callback function is called.
 
-referance: http://wiki.ros.org/ROS/Tutorials/WritingPublisherSubscriber%28python%29
+reference: http://wiki.ros.org/ROS/Tutorials/WritingPublisherSubscriber%28python%29
 
 ## composiv_tryout.launch
 You can find the launch file under composiv_tryouts/launch/composiv_tryout.launch
