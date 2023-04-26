@@ -8,23 +8,31 @@ In the end, I have written a launch file so that user can run multiple nodes wit
 
 ## Composiv_talker
 You can find the code for talker node under composiv_tryouts/scripts/composiv_talker.py
+
 Initialized the node as "composiv_talker" 
+
 Publishes messages to "chatter" topic
+
 Keeps sending the message "hello world, i am a ROS talker node!" within 10Hz until the process gets cancelled (CTRL+C or shutdown)
 
 reference: http://wiki.ros.org/ROS/Tutorials/WritingPublisherSubscriber%28python%29
 
 ## Composiv_listener
 You can find the code for listener node under composiv_tryouts/scripts/composiv_listener.py
+
 Initialized the node as "composiv_listener" 
+
 Subscribes to the "chatter" topic
+
 If a message occurs on the chatter topic, callback function is called.
 
 reference: http://wiki.ros.org/ROS/Tutorials/WritingPublisherSubscriber%28python%29
 
 ## composiv_tryout.launch
 You can find the launch file under composiv_tryouts/launch/composiv_tryout.launch
+
 Creates 1 composiv_talker and 1 composiv_listener nodes.
+
 Feel free to add more talker/listeners
 
 ## How it works? 
